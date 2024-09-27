@@ -1,0 +1,5 @@
+n = input()
+s = float(input())
+b = float(input())
+txt = format("TOTAL = R$ {:.2f}")
+print(txt.format(s+(b*.15)))

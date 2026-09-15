@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Binarios compilados sin extension (ej. gcc -o 1000 1000.c)
+Basics/*
+!Basics/*.*
